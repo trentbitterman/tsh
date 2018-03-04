@@ -49,6 +49,7 @@ int main(int argc, char** argv)
             exit(status);
         }
     }
+    return 0;
 }
 
 int get_line(char* prompt, char* buffer, int buffer_size)
